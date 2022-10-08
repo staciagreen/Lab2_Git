@@ -10,6 +10,8 @@ int Division(int a, int b);
 
 int main() {
     std::cout << "Hello, this is SimpCalc!" << std::endl;
+    std::cout << "Put two integers and a sign between(+, -, *, /).";
+    std::cout << "*don't fordet to use spaces*";
     int a;
     std::string sign;
     int b;
