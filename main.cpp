@@ -15,6 +15,10 @@ int main() {
         std::cout << Plus(a, b);
     if (sign == "-")
         std::cout << Minus(a, b);
+    if (sign == "*")
+        std::cout << a * b;
+    if (sign == "/")
+        std::cout << a / b;
     return 0;
 }
 
