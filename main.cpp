@@ -20,9 +20,9 @@ int main() {
     if (sign == "-")
         std::cout << Minus(a, b);
     if (sign == "*")
-        std::cout << a * b;
+        std::cout << Multiplication(a, b);
     if (sign == "/")
-        std::cout << a / b;
+        std::cout << Division(a, b);
     return 0;
 }
 
