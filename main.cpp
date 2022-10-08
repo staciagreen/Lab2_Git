@@ -41,5 +41,5 @@ float Multiplication(float a, float b) {
 }
 
 float Division(float a, float b) {
-    return a / b;
+    return int(a / b * 100) / 100;
 }
