@@ -33,7 +33,7 @@ int Plus(int a, int b) {
 }
 
 int Minus(int a, int b) {
-    return a + b;
+    return a - b;
 }
 
 int Multiplication(int a, int b) {
