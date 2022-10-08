@@ -10,8 +10,8 @@ float Division(float a, float b);
 
 int main() {
     std::cout << "Hello, this is SimpCalc!" << std::endl;
-    std::cout << "Put two floategers and a sign between(+, -, *, /).";
-    std::cout << "*don't fordet to use spaces*";
+    std::cout << "Put two float and a sign between(+, -, *, /).";
+    std::cout << "*don't forget to use spaces*";
     float a;
     std::string sign;
     float b;
