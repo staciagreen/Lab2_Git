@@ -1,20 +1,20 @@
 #include <iostream>
 
-int Plus(int a, int b);
+float Plus(float a, float b);
 
-int Minus(int a, int b);
+float Minus(float a, float b);
 
-int Multiplication(int a, int b);
+float Multiplication(float a, float b);
 
-int Division(int a, int b);
+float Division(float a, float b);
 
 int main() {
     std::cout << "Hello, this is SimpCalc!" << std::endl;
-    std::cout << "Put two integers and a sign between(+, -, *, /).";
-    std::cout << "*don't fordet to use spaces*";
-    int a;
+    std::cout << "Put two float and a sign between(+, -, *, /).";
+    std::cout << "*don't forget to use spaces*";
+    float a;
     std::string sign;
-    int b;
+    float b;
     std::cin >> a >> sign >> b;
     std::cout << a << " " << sign << " " << b << " = ";
     if (sign == "+")
@@ -28,18 +28,18 @@ int main() {
     return 0;
 }
 
-int Plus(int a, int b) {
+float Plus(float a, float b) {
     return a + b;
 }
 
-int Minus(int a, int b) {
+float Minus(float a, float b) {
     return a - b;
 }
 
-int Multiplication(int a, int b) {
+float Multiplication(float a, float b) {
     return a * b;
 }
 
-int Division(int a, int b) {
-    return a / b;
+float Division(float a, float b) {
+    return int(a / b * 100) / 100;
 }
