@@ -12,10 +12,10 @@ int main() {
     std::cin >> a >> sign >> b;
     std::cout << a << " " << sign << " " << b << " = ";
     if (sign == "+")
-        std::cout << a + b;
+        std::cout << Plus(a, b);
     if (sign == "-")
-        std::cout << a - b;
-        return 0;
+        std::cout << Minus(a, b);
+    return 0;
 }
 
 int Plus(int a, int b) {
