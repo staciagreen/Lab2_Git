@@ -2,7 +2,7 @@
 
 float Plus(float a, float b);
 
-int maintнгшщзх() {
+int maintнгшщзх4578() {
 std::cout << "hi";
     return 0;
 }
