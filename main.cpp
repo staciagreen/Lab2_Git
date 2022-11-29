@@ -2,7 +2,7 @@
 
 float Plus(float a, float b);
 
-int maint() {
+int maintнгшщзх() {
 
     return 0;
 }
