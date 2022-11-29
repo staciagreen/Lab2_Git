@@ -3,6 +3,6 @@
 float Plus(float a, float b);
 
 int main() {
-    std::cout << "hello";
+    std::cout << "43";
     return 0;
 }
